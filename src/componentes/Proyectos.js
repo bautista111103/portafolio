@@ -14,9 +14,10 @@ function ContenedorProyectos() {
                     <Card.Title>Proyecto 1</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">AmazingEvents</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={amazing} />
-                    <Card.Text>
+                    <Card.Text className="descripcion-proyectos">
                         Esta es una pagina dedicada a diferentes tipos de eventos en general, realizada completamente por mi.
-                   
+                    </Card.Text>
+                    <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
                         <ol>
                             <li>JavaScript</li>
@@ -33,11 +34,10 @@ function ContenedorProyectos() {
             <Card className="carta-proyectos">
             <Card.Body className="cuerpo-carta-proyecto">
                     <Card.Title>Proyecto 2</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Mytinerary</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">Mindy</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={mindy} />
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    <Card.Text className="descripcion-proyectos">
+                        Mindy es un proyecto que me toco realizar de manera grupal, fue dedicada a vender articulos para cualquier tipo de mascotas y nos llevo aproximadamnete una semana realizarla por completo.
                     </Card.Text>
                     <div className="links">
                         <Card.Link className="link-carta-proyecto" href="https://62fbe15f389d0b371555441f--mindy-petshop-leguizamo.netlify.app/pages/shoptoys">Pagina</Card.Link>
@@ -48,7 +48,7 @@ function ContenedorProyectos() {
             <Card className="carta-proyectos">
             <Card.Body className="cuerpo-carta-proyecto">
                     <Card.Title>Proyecto 3</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">Mytinerary</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={mytinerary} />
                     <Card.Text>
                         Some quick example text to build on the card title and make up the
@@ -63,7 +63,7 @@ function ContenedorProyectos() {
             <Card className="carta-proyectos">
                 <Card.Body className="cuerpo-carta-proyecto">
                     <Card.Title>Proyecto 4</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                    <Card.Subtitle className="mb-2 text-muted">Gea Store</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={gea} />
                     <Card.Text className="tecnologias-proyectos">
                         Some quick example text to build on the card title and make up the
