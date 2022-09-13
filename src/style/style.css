@@ -80,6 +80,23 @@ Button:hover{
   text-align:center;
   color:white;
 }
+.descripcion-proyectos{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  max-width:40vw;
+  min-height:10vh;
+  border:solid 1px white;
+}
+.texto-proyectos-tecnologias{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  text-align:start;
+  width:25vw;
+  height:20vh;
+  margin-top:1rem;
+ }
 .imagen-proyectos{
   height:40vh;
   max-width:35vw;
@@ -93,6 +110,7 @@ Button:hover{
   opacity:100%;
 }
 .links{
+  border:solid 1px white;
   display:flex;
   justify-content:space-around;
   margin-bottom:1rem;
@@ -191,6 +209,30 @@ li{
   border:solid black 1px;
   margin-bottom:1rem;
 }
+.contenedor-img-sobremi-tecnologias{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+  background-color:white;
+  opacity:80%;
+  height:50vh;
+  width:60vw;
+  border:solid black 1px;
+  margin-bottom:1rem;
+}
+.contenedor-img-tecnologias{
+  min-height:40vh;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+}
+.img-tecnologias{
+  object-fit:cover;
+  width:12vw;
+  height:17vh;
+}
 .imagen-sobremi{
   object-fit:cover;
   width:50%;
@@ -271,3 +313,4 @@ li{
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
  }
+ 
