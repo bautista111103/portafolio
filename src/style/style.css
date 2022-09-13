@@ -34,7 +34,7 @@ Button:hover{
   width:10% !important;
 }
 .css-hip9hq-MuiPaper-root-MuiAppBar-root{
-  background-image:url(https://images.unsplash.com/photo-1551156597-9084ca482811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80);
+  background-image:url(https://images.unsplash.com/photo-1551156597-9084ca482811?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80) !important;
   background-repeat:no-repeat !important;
   background-size:cover !important;
   width:100% !important;
