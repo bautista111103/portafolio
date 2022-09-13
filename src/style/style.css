@@ -39,6 +39,7 @@ Button:hover{
   background-size:cover !important;
   width:100% !important;
   align-items:center !important;
+  background-color:transparent !important;
 }
 .MuiBox-root{
   display:flex !important;
