@@ -83,10 +83,12 @@ Button:hover{
 .descripcion-proyectos{
   display:flex;
   justify-content:center;
+  align-items:center;
   text-align:center;
   max-width:40vw;
-  min-height:10vh;
+  min-height:15vh;
   border:solid 1px white;
+  cursor:default;
 }
 .texto-proyectos-tecnologias{
   display:flex;
@@ -94,8 +96,25 @@ Button:hover{
   flex-wrap:wrap;
   text-align:start;
   width:25vw;
-  height:20vh;
   margin-top:1rem;
+  margin-bottom:0.5rem;
+  cursor:default;
+ }
+ .div-tegnologias-1y2{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:15vh;
+  cursor:default;
+ }
+ .div-tegnologias{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height:30vh;
+  cursor:default;
  }
 .imagen-proyectos{
   height:40vh;
@@ -312,5 +331,129 @@ li{
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
+ }
+ @media  (max-width:700px) {
+  .Contenedor-de-proyectos{
+    width:80vw !important;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .carta-proyectos{
+    min-width:55vw;
+    min-height:50vh;
+    display:flex;
+    justify-content:center;
+    border:white solid 1px;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    background-color:black;
+    opacity:85%;
+  }
+  .tecnologias-proyectos{
+    display:flex !important;
+    flex-direction:column !important;
+    justify-content:center;
+    width:20vw;
+  }
+  .cuerpo-carta-proyecto{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    color:white;
+  }
+  .descripcion-proyectos{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    max-width:50vw;
+    min-height:15vh;
+    border:solid 1px white;
+    cursor:default;
+  }
+  .texto-proyectos-tecnologias{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    text-align:start;
+    width:25vw;
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+    cursor:default;
+   }
+   .div-tegnologias-1y2{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:15vh;
+    cursor:default;
+   }
+   .div-tegnologias{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:30vh;
+    cursor:default;
+   }
+  .imagen-proyectos{
+    height:40vh;
+    max-width:55vw;
+    padding:1rem;
+    object-fit:contain;
+    opacity:60%;
+  }
+  .imagen-proyectos:hover{
+    transform: scale(1.2);
+    transition:1s;
+    opacity:100%;
+  }
+  .links{
+    border:solid 1px white;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:1rem;
+    margin-top:1rem;
+  }
+  .ahref-contacto{
+    text-decoration:none;
+    color:black;
+    font-size:1.1rem;
+    letter-spacing:1px;
+  }
+ }
+ @media  (max-width:520px){
+  .ahref-contacto{
+    text-decoration:none;
+    color:black;
+    font-size:1rem;
+    letter-spacing:1px;
+  }
+ }
+ @media  (max-width:440px){
+  .css-1xk9qe6-MuiButtonBase-root-MuiButton-root{
+    min-width:6rem !important;
+    font-size:1rem !important;
+    letter-spacing:normal !important;
+  }
+  .icono-git{
+    width:20vw !important;
+  }
+  .icono-linkedin{
+    width:20vw !important;
+  }
+  .icono-email{
+    width:20vw !important;
+  }
+  .icono-whatsapp{
+    width:20vw !important;
+  }
+  .icono-instagram{
+    width:20vw !important;
+  }
  }
  
