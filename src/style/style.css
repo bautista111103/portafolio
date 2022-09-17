@@ -54,6 +54,12 @@ Button:hover{
   justify-content:center;
   flex-wrap:wrap !important;
 }
+.titulo-carta{
+  margin:0.5rem 0rem 0.5rem 0rem;
+}
+.mb-2{
+  font-size:1.4rem !important;
+}
 .Contenedor-de-proyectos{
   width:80vw !important;
   display:flex;
@@ -222,12 +228,23 @@ li{
   justify-content:center;
   align-content:center;
 }
+.descripcion-diplomas{
+  display:flex;
+  height:50vh;
+}
+.titulo-diplomas{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
 .contenedor-img-sobremi{
   display:flex;
+  flex-direction:column;
   justify-content:space-between;
   background-color:black;
   opacity:80%;
-  height:40vh;
+  height:50vh;
   width:60vw;
   border:solid black 1px;
   margin-bottom:1rem;
@@ -281,14 +298,14 @@ li{
 .imagen-cv-sobremi{
   object-fit:contain;
   width:50%;
-  height:100%;
+  height:92%;
 }
 .imagen-cv-sobremi:hover{
   opacity:100%;
   transition:1s;
   transform:scale(1.05);
 }
-.holita {
+.descargar-cv {
   --glow-color: rgb(217, 176, 255);
   --glow-spread-color: rgba(191, 123, 255, 0.781);
   --enhanced-glow-color: rgb(231, 206, 255);
@@ -309,7 +326,7 @@ li{
   transition: all 0.3s;
  }
  
- holita::after {
+ descargar-cv::after {
   pointer-events: none;
   content: "";
   position: absolute;
@@ -323,7 +340,7 @@ li{
   transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
  }
  
- holita:hover {
+ descargar-cv:hover {
   color: var(--btn-color);
   background-color: var(--glow-color);
   box-shadow: 0 0 1em .25em var(--glow-color),
@@ -331,7 +348,7 @@ li{
          inset 0 0 .75em .25em var(--glow-color);
  }
  
- holita:active {
+ descargar-cv:active {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
@@ -373,7 +390,7 @@ li{
     justify-content:center;
     align-items:center;
     text-align:center;
-    max-width:50vw;
+    max-width:60vw;
     min-height:15vh;
     border:solid 1px white;
     cursor:default;
@@ -428,6 +445,100 @@ li{
     color:black;
     font-size:1.1rem;
     letter-spacing:1px;
+  }
+  .contenedor-img-sobremi{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    background-color:black;
+    opacity:80%;
+    height:88vh;
+    width:60vw;
+    border:solid black 1px;
+  }
+  .descripcion-diplomas{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    height:60vh;
+  }
+  .div-sobremi{
+    margin-top:2rem;
+    min-height:60vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+  }
+  
+  .titulo-diplomas{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .contenedor-img-sobremi-tecnologias{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:white;
+    opacity:80%;
+    height:50vh;
+    width:60vw;
+    border:solid black 1px;
+    margin-bottom:1rem;
+  }
+  .contenedor-img-tecnologias{
+    min-height:40vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+  }
+  .img-tecnologias{
+    object-fit:cover;
+    width:12vw;
+    height:17vh;
+  }
+  .imagen-sobremi{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+  }
+  .imagen-sobremi:hover{
+    opacity:100%;
+    transition:1s;
+    transform:scale(1.05);
+  }
+  .texto-titulos-sobrmi{
+    margin-top:1rem;
+    width:38vw;
+    color:white;
+  }
+  .contenedor-parrafo-titulos{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:60vw;
+  }
+  .imagen-cv-sobremi{
+    object-fit:contain;
+    width:100%;
+    height:82%;
+    margin-bottom:1rem;
+  }
+  .imagen-cv-sobremi:hover{
+    opacity:100%;
+    transition:1s;
+    transform:scale(1.05);
+  }
+  .img-tecnologias{
+    object-fit:cover;
+    width:17vw;
+    height:8vh;
   }
  }
  @media  (max-width:520px){

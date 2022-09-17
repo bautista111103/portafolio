@@ -11,7 +11,7 @@ function ContenedorProyectos() {
         <div className="Contenedor-de-proyectos">
             <Card className="carta-proyectos">
                 <Card.Body className="cuerpo-carta-proyecto">
-                    <Card.Title>Proyecto 1</Card.Title>
+                    <Card.Title className="titulo-carta">Proyecto 1</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">AmazingEvents</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={amazing} />
                     <Card.Text className="descripcion-proyectos">
@@ -35,7 +35,7 @@ function ContenedorProyectos() {
             </Card>
             <Card className="carta-proyectos">
                 <Card.Body className="cuerpo-carta-proyecto">
-                    <Card.Title>Proyecto 2</Card.Title>
+                    <Card.Title className="titulo-carta">Proyecto 2</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Mindy</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={mindy} />
                     <Card.Text className="descripcion-proyectos">
@@ -60,7 +60,7 @@ function ContenedorProyectos() {
             </Card>
             <Card className="carta-proyectos">
                 <Card.Body className="cuerpo-carta-proyecto">
-                    <Card.Title>Proyecto 3</Card.Title>
+                    <Card.Title className="titulo-carta">Proyecto 3</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Mytinerary</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={mytinerary} />
                     <Card.Text className="descripcion-proyectos">
@@ -89,7 +89,7 @@ function ContenedorProyectos() {
             </Card>
             <Card className="carta-proyectos">
                 <Card.Body className="cuerpo-carta-proyecto">
-                    <Card.Title>Proyecto 4</Card.Title>
+                    <Card.Title className="titulo-carta">Proyecto 4</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">Gea Store</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={gea} />
                     <Card.Text className="descripcion-proyectos">
