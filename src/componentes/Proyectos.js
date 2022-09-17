@@ -15,16 +15,18 @@ function ContenedorProyectos() {
                     <Card.Subtitle className="mb-2 text-muted">AmazingEvents</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={amazing} />
                     <Card.Text className="descripcion-proyectos">
-                        Esta es una pagina dedicada a diferentes tipos de eventos en general, realizada completamente por mi.
+                        Esta es una pagina dedicada a diferentes tipos de eventos de comida, recitales, excursiones, actividades recreactivas entre muchas otras y fue realizada completamente por mi.
                     </Card.Text>
                     <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
+                    </Card.Text>
+                    <div className="div-tegnologias-1y2">
                         <ol>
                             <li>JavaScript</li>
                             <li>Css</li>
                             <li>HTML5</li>
                         </ol>
-                    </Card.Text>
+                    </div>
                     <div className="links">
                         <Card.Link className="link-carta-proyecto" href="https://amazingevents-leguizamo.netlify.app/">Pagina</Card.Link>
                         <Card.Link className="link-carta-proyecto" href="https://github.com/bautista111103/AmazingEvents">Repositorio</Card.Link>
@@ -41,12 +43,15 @@ function ContenedorProyectos() {
                     </Card.Text>
                     <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
+                    </Card.Text>
+                    <div className="div-tegnologias-1y2">
                         <ol>
                             <li>JavaScript</li>
                             <li>Css</li>
                             <li>HTML5</li>
+                            <li>Github</li>
                         </ol>
-                    </Card.Text>
+                    </div>
                     <div className="links">
                         <Card.Link className="link-carta-proyecto" href="https://62fbe15f389d0b371555441f--mindy-petshop-leguizamo.netlify.app/pages/shoptoys">Pagina</Card.Link>
                         <Card.Link className="link-carta-proyecto" href="https://github.com/bautista111103/Mindy">Repositorio</Card.Link>
@@ -59,19 +64,23 @@ function ContenedorProyectos() {
                     <Card.Subtitle className="mb-2 text-muted">Mytinerary</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={mytinerary} />
                     <Card.Text className="descripcion-proyectos">
-                        Este es un proyecto realizado por mi para una agencia de viaje, me llevo aproximadamnete 2 semanas ternminarla por completo
+                        Esta es una app realizada por mi para una agencia de viaje la cual queria mostrar los diferentes destinos que ofrecia junto con sus principales atracciones y actividades, me llevo aproximadamnete 2 semanas ternminarla por completo
                     </Card.Text>
                     <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
-                        <ol>
+                    </Card.Text>
+                    <div className="div-tegnologias">
+                        <ol >
                             <li>JavaScript</li>
                             <li>Css</li>
                             <li>HTML5</li>
                             <li>React</li>
                             <li>Redux</li>
                             <li>Node js</li>
+                            <li>Mongodb</li>
+                            <li>Postman</li>
                         </ol>
-                    </Card.Text>
+                    </div>
                     <div className="links">
                         <Card.Link className="link-carta-proyecto" href="https://mytinerari-leguizamo-frontend.herokuapp.com/">Pagina</Card.Link>
                         <Card.Link className="link-carta-proyecto" href="https://github.com/bautista111103/mytinerary-leguizamo">Repositorio</Card.Link>
@@ -84,21 +93,26 @@ function ContenedorProyectos() {
                     <Card.Subtitle className="mb-2 text-muted">Gea Store</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={gea} />
                     <Card.Text className="descripcion-proyectos">
-                        Este ecommerce tambien fue realizado de manera grupal y tenia como limite de tiempo maximo 10 dias para su entrega en completo funcionamiento.
+                        Este ecommerce tambien fue realizado de manera grupal, en este caso estaba orientado a ofrecer comidas para personas con problemas de salud o que cuidan su alimentacion y tenia como limite de tiempo 10 dias para su entrega en completo funcionamiento.
                     </Card.Text>
                     <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
-                            <ol>
-                                <li>JavaScript</li>
-                                <li>Css</li>
-                                <li>HTML5</li>
-                                <li>React</li>
-                                <li>Redux</li>
-                                <li>Node js</li>
-                                <li>Testing</li>
-                                <li>Upload file</li>
-                            </ol>
                     </Card.Text>
+                    <div className="div-tegnologias">
+                        <ol>
+                            <li>JavaScript</li>
+                            <li>Css</li>
+                            <li>HTML5</li>
+                            <li>React</li>
+                            <li>Redux</li>
+                            <li>Node js</li>
+                            <li>Mongodb</li>
+                            <li>Github</li>
+                            <li>Postman</li>
+                            <li>Testing</li>
+                            <li>Upload file</li>
+                        </ol>
+                    </div>
                     <div className="links">
                         <Card.Link className="link-carta-proyecto" href="https://gea-store.herokuapp.com/">Pagina</Card.Link>
                         <Card.Link className="link-carta-proyecto" href="#">Repositorio</Card.Link>
