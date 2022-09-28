@@ -147,13 +147,14 @@ Button:hover{
 }
 .link-carta-proyecto{
   text-decoration:none !important;
-  background-color:black;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:white;
   opacity:100%;
-  color:white;
+  color:black;
 }
 .link-carta-proyecto:hover{
-  background-color:white;
-  color:black;
+  background-color:black;
+  color:white;
   border-radius:20%;
   transform:scale(1.03);
   transition:0.4s;
@@ -362,7 +363,7 @@ li{
     align-items:center;
   }
   .carta-proyectos{
-    min-width:55vw;
+    min-width:75vw;
     min-height:50vh;
     display:flex;
     justify-content:center;
@@ -390,7 +391,7 @@ li{
     justify-content:center;
     align-items:center;
     text-align:center;
-    max-width:60vw;
+    max-width:75vw;
     min-height:15vh;
     border:solid 1px white;
     cursor:default;
@@ -400,7 +401,7 @@ li{
     justify-content:center;
     flex-wrap:wrap;
     text-align:start;
-    width:25vw;
+    width:30vw;
     margin-top:1rem;
     margin-bottom:0.5rem;
     cursor:default;
@@ -423,7 +424,7 @@ li{
    }
   .imagen-proyectos{
     height:40vh;
-    max-width:55vw;
+    max-width:75vw;
     padding:1rem;
     object-fit:contain;
     opacity:60%;
@@ -434,6 +435,7 @@ li{
     opacity:100%;
   }
   .links{
+    width:75vw;
     border:solid 1px white;
     display:flex;
     justify-content:space-around;
@@ -454,7 +456,7 @@ li{
     background-color:black;
     opacity:80%;
     height:88vh;
-    width:60vw;
+    width:75vw;
     border:solid black 1px;
   }
   .descripcion-diplomas{
@@ -482,11 +484,12 @@ li{
     display:flex;
     justify-content:space-around;
     align-items:center;
+    align-content:center;
     flex-wrap:wrap;
     background-color:white;
     opacity:80%;
     height:50vh;
-    width:60vw;
+    width:75vw;
     border:solid black 1px;
     margin-bottom:1rem;
   }
