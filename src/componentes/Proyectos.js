@@ -93,7 +93,7 @@ function ContenedorProyectos() {
                     <Card.Subtitle className="mb-2 text-muted">Gea Store</Card.Subtitle>
                     <Card.Img className="imagen-proyectos" src={gea} />
                     <Card.Text className="descripcion-proyectos">
-                        Este ecommerce tambien fue realizado de manera grupal, en este caso estaba orientado a ofrecer comidas para personas con problemas de salud o que cuidan su alimentacion y tenia como limite de tiempo 10 dias para su entrega en completo funcionamiento.
+                        Este ecommerce fue realizado de manera grupal, en este caso estaba orientado a ofrecer comidas para personas con problemas de salud o que cuidan su alimentacion y tenia como limite de tiempo 10 dias para su entrega en completo funcionamiento.
                     </Card.Text>
                     <Card.Text className="texto-proyectos-tecnologias">
                         Tecnologias usadas:
@@ -109,7 +109,6 @@ function ContenedorProyectos() {
                             <li>Mongodb</li>
                             <li>Github</li>
                             <li>Postman</li>
-                            <li>Testing</li>
                             <li>Upload file</li>
                         </ol>
                     </div>
